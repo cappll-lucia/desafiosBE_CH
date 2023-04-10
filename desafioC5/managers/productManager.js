@@ -24,6 +24,7 @@ export default class ProductManager{
             err.message=`No existe un producto con id=${_id}`
             throw err
         }
+        return myProd
     }
 
     addProduct = async(_prod)=>{
@@ -45,11 +46,12 @@ export default class ProductManager{
     
     updateProduct = async(_id, _changes)=>{
         const myProd = await this.getProductById(_id);
+        const products = await this.getProducts();
+        const index = products.findIndex(prod=>prod.id===_id);
         if(!myProd){
             const err = new Error();
             err.message=`No existe un producto con id=${_id}`
             throw err
-            return
         }
         if(_changes.title){
             myProd.title=_changes.title;
@@ -69,9 +71,8 @@ export default class ProductManager{
         if(_changes.stock){
             myProd.stock=_changes.stock;
         }
-        await this.deleteProduct(_id);
-        const products = await this.getProducts();
-        products.push(myProd);
+
+        products[index]=myProd;
         await fs.promises.writeFile(this.path, JSON.stringify(products), null, '\t');
     }
 }

@@ -18,13 +18,13 @@ export default class ProductManager{
 
     getProductById= async(_id)=>{
         const products = await this.getProducts();
-        const myProd = products.find(prod => prod.id===_id);
-        if(!myProd){
+        const foundProd = products.find((p)=>p.id==_id)
+        if(!foundProd){
             const err = new Error();
             err.message=`No existe un producto con id=${_id}`
             throw err
         }
-        return myProd
+        return foundProd
     }
 
     addProduct = async(_prod)=>{

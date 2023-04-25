@@ -1,0 +1,101 @@
+[
+    {
+        "title": "Paraguas",
+        "description": "este es un producto de prueba",
+        "price": 200,
+        "thumbnail": "Sin imagen",
+        "code": "abc123",
+        "stock": 25,
+        "id": 1
+    },
+    {
+        "title": "Lapicera",
+        "description": "Descripcion actualizada",
+        "price": 80,
+        "thumbnail": "Sin imagen",
+        "code": "aaa777",
+        "stock": 100,
+        "id": 2
+    },
+    {
+        "title": "Botella",
+        "description": "Capacidad 1.5lts",
+        "price": 300,
+        "thumbnail": "Sin imagen",
+        "code": "aaj887",
+        "stock": 10,
+        "id": 3
+    },
+    {
+        "title": "Diccionario Inglés",
+        "description": "Modelo:  English to English",
+        "price": 8000,
+        "thumbnail": "Sin imagen",
+        "code": "iga077",
+        "stock": 1,
+        "id": 4
+    },
+    {
+        "title": "Mouse",
+        "description": "Mouse con cable USB",
+        "price": 450,
+        "thumbnail": "Sin imagen",
+        "code": "mah110",
+        "stock": 20,
+        "id": 5
+    },
+    {
+        "title": "Mouse Pro",
+        "description": "Mouse inalámbrico",
+        "price": 1450,
+        "thumbnail": "Sin imagen",
+        "code": "mah550",
+        "stock": 20,
+        "id": 6
+    },
+    {
+        "title": "Termo",
+        "description": "Pico matero",
+        "price": 3000,
+        "thumbnail": "Sin imagen",
+        "code": "ttm087",
+        "stock": 10,
+        "id": 7
+    },
+    {
+        "title": "Termo",
+        "description": "Pico matero",
+        "price": 3000,
+        "thumbnail": "Sin imagen",
+        "code": "ttm087",
+        "stock": 10,
+        "id": 7
+    },
+    {
+        "title": "Mate",
+        "description": "Mate de calabaza",
+        "price": 1050,
+        "thumbnail": "Sin imagen",
+        "code": "jsm787",
+        "stock": 5,
+        "id": 8
+    },
+    {
+        "title": "Teclado",
+        "description": "Teclado inalámbrico",
+        "price": 500,
+        "thumbnail": "Sin imagen",
+        "code": "hha990",
+        "stock": 3,
+        "id": 9
+    },
+    {
+        "title": "Aurriculares",
+        "description": "Aurriculares inalámbricos",
+        "price": 9500,
+        "thumbnail": "Sin imagen",
+        "code": "ioo490",
+        "stock": 30,
+        "id": 10
+    }
+]
